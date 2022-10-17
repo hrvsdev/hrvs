@@ -22,7 +22,7 @@ const NameText = styled("h1", {
 const Container = styled("div", {
   display: "flex",
   justifyContent: "center",
-  padding: "0 20px",
+  padding: "100px 20px",
 });
 
 const Wrapper = styled("div", {
