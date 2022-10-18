@@ -1,2 +1,2 @@
-import HeroComp from "./Hero";
+import HeroComp from "./Hero"
 export default HeroComp

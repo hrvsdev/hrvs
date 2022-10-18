@@ -1,6 +1,6 @@
 import styled from "../../stitches.config";
 
-import HeroComp from "./hero";
+import HeroComp from "./Hero";
 
 export default function Home() {
   return (
