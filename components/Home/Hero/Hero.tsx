@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import styled from "../../../stitches.config";
 
 export default function HeroComp(): JSX.Element {
   return (
@@ -8,7 +8,7 @@ export default function HeroComp(): JSX.Element {
         <NameText>Harsh Vyas.</NameText>
         <TagText>I code for the Web & Mobile.</TagText>
         <AboutText>
-          I am a software developer mainly focused on the <b>front-end</b> to create{" "}
+          I am a software developer mainly focused on the <b>front-end</b> to create&nbsp;
           <b>attractive and better apps</b> for both web and mobile. I like to play chess
           apart from coding.
         </AboutText>
@@ -26,7 +26,8 @@ const HelloText = styled("p", {
   paddingLeft: 4,
   fontSize: 20,
   color: "rgb(60, 65, 68)",
-});
+
+})
 
 const NameText = styled("h1", {
   fontSize: 80,
@@ -71,7 +72,7 @@ const PrimaryButton = styled("button", {
   a: {
     display: "inline-block",
     padding: "10px 30px",
-    color: "CurrentColor"
+    color: "CurrentColor",
   },
 });
 
