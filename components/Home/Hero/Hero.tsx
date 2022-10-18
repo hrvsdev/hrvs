@@ -9,8 +9,8 @@ export default function HeroComp(): JSX.Element {
         <TagText>I code for the Web & Mobile.</TagText>
         <AboutText>
           I am a software developer mainly focused on the <b>front-end</b> to create&nbsp;
-          <b>attractive and better apps</b> for both web and mobile. I like to play chess
-          apart from coding.
+          <b>attractive and better apps</b> for both web and mobile. Apart from coding, I
+          like to play chess.
         </AboutText>
         <ButtonGroup>
           <Button>
