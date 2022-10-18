@@ -31,6 +31,26 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/hi",
+        destination: "mailto:hrvsdev@gmail.com",
+        permanent: true,
+      },
+      {
+        source: "/hello",
+        destination: "mailto:hrvsdev@gmail.com",
+        permanent: true,
+      },
+      {
+        source: "/contact",
+        destination: "mailto:hrvsdev@gmail.com",
+        permanent: true,
+      },
+      {
+        source: "/msg",
+        destination: "mailto:hrvsdev@gmail.com",
+        permanent: true,
+      },
+      {
         source: "/tw",
         destination: "https://twitter.com/hrvsdev",
         permanent: true,
