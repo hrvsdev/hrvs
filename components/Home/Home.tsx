@@ -1,11 +1,11 @@
 import { styled } from "@stitches/react";
 
-import Hero from "./hero";
+import HeroComp from "./hero";
 
 export default function Home() {
   return (
     <Main>
-      <Hero />
+      <HeroComp />
     </Main>
   );
 }
