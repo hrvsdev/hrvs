@@ -28,16 +28,37 @@ const HelloText = styled("p", {
   paddingLeft: 4,
   fontSize: 20,
   color: "rgb(60, 65, 68)",
+  marginBottom: 5,
+
+  "@md": {
+    fontSize: 18,
+  },
 });
 
 const NameText = styled("h1", {
   fontSize: 80,
   marginBottom: 5,
+
+  "@md": {
+    fontSize: 60,
+  },
+
+  "@sm": {
+    fontSize: 45,
+  },
 });
 
 const TagText = styled("p", {
   fontSize: 60,
   marginBottom: 20,
+
+  "@md": {
+    fontSize: 40,
+  },
+
+  "@sm": {
+    fontSize: 30,
+  },
 });
 
 const AboutText = styled("p", {
@@ -47,6 +68,10 @@ const AboutText = styled("p", {
   fontSize: 17,
   color: "rgb(60, 65, 68)",
   lineHeight: "31px",
+
+  "@sm": {
+    fontSize: 16,
+  },
 });
 
 const ButtonGroup = styled("div", {
@@ -103,6 +128,14 @@ const Container = styled("div", {
   display: "flex",
   justifyContent: "center",
   padding: "100px 20px",
+
+  "@md": {
+    padding: "60px 20px",
+  },
+
+  "@sm": {
+    padding: "20px",
+  },
 });
 
 const Wrapper = styled("div", {
