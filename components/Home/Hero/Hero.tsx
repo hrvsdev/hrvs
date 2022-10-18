@@ -12,11 +12,13 @@ export default function HeroComp(): JSX.Element {
           <b>attractive and better apps</b> for both web and mobile. I like to play chess
           apart from coding.
         </AboutText>
-        <PrimaryButton>
-          <a href="https://github.com/hrvsdev" target="_blank" rel="noreferrer">
-            Github
-          </a>
-        </PrimaryButton>
+        <ButtonGroup>
+          <Button>
+            <a href="https://github.com/hrvsdev" target="_blank" rel="noreferrer">
+              Github
+            </a>
+          </Button>
+        </ButtonGroup>
       </Wrapper>
     </Container>
   );
@@ -26,8 +28,7 @@ const HelloText = styled("p", {
   paddingLeft: 4,
   fontSize: 20,
   color: "rgb(60, 65, 68)",
-
-})
+});
 
 const NameText = styled("h1", {
   fontSize: 80,
@@ -48,25 +49,47 @@ const AboutText = styled("p", {
   lineHeight: "31px",
 });
 
-const PrimaryButton = styled("button", {
+const ButtonGroup = styled("div", {
+  display: "flex",
+  columnGap: 20,
+});
+
+const Button = styled("button", {
   all: "unset",
   cursor: "pointer",
   width: "fit-content",
   fontWeight: 500,
-  color: "white",
-  background: "black",
-  border: "2px solid black",
   borderRadius: 22,
+  border: "2px solid black",
   transition: "transform 100ms",
-
-  "&:hover": {
-    color: "black",
-    background: "white",
-    borderColor: "black",
-  },
 
   "&:active": {
     transform: "translateY(2px)",
+  },
+
+  variants: {
+    type: {
+      primary: {
+        color: "white",
+        background: "black",
+        "&:hover": {
+          color: "black",
+          background: "white",
+        },
+      },
+      secondary: {
+        color: "black",
+        background: "white",
+        "&:hover": {
+          color: "white",
+          background: "black",
+        },
+      },
+    },
+  },
+
+  defaultVariants: {
+    type: "primary",
   },
 
   a: {
