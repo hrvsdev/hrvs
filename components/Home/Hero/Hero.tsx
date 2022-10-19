@@ -6,7 +6,7 @@ export default function HeroComp(): JSX.Element {
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-2 sm:mb-4">
           Harsh Vyas.
         </h1>
-        <p className="text-3xl sm:text-4xl md:text-6xl mb-5">
+        <p className="text-4xl sm:text-5xl md:text-6xl mb-5">
           I code for the Web & Mobile.
         </p>
         <p className="text-base md:text-lg mb-12 leading-8 text-gray-600 max-w-xl">
