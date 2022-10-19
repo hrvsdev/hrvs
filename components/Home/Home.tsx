@@ -1,19 +1,9 @@
-import styled from "../../stitches.config";
-
 import HeroComp from "./Hero";
 
 export default function Home() {
   return (
-    <Main>
+    <main className="py-8 md:py-12">
       <HeroComp />
-    </Main>
+    </main>
   );
 }
-
-const Main = styled("main", {
-  padding: "50px 0",
-
-  "@md": {
-    padding: "30px 0"
-  }
-});
