@@ -1,3 +1,3 @@
-# About me
+# Harsh Vyas
 
-Hosted on Vercel: [hrvs.me](https://hrvs.me)
+My portfolio made with Next.js
