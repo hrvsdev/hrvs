@@ -1,6 +1,6 @@
 export default function HeroComp(): JSX.Element {
   return (
-    <div className="flex justify-center p-5 sm:py-16 md:py-24 md:px-5">
+    <div className="flex justify-center py-5 sm:py-16 md:py-24">
       <div className="flex flex-col max-w-screen-lg w-full">
         <p className="text-lg sm:text-xl text-gray-500 pl-1 mb-1">Hi there, I&apos;m</p>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-2 sm:mb-4">
