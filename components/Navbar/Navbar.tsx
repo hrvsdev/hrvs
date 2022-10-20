@@ -1,4 +1,4 @@
-import { TbBrandGithub, TbFileDownload } from "react-icons/tb";
+import { TbBrandGithub } from "react-icons/tb";
 
 export default function Navbar() {
   return (
@@ -6,7 +6,9 @@ export default function Navbar() {
       <div className="flex justify-between items-center pl-1 max-w-5xl w-full">
         <div className="text-xl font-bold p-2 border-2 border-black rounded-full">HV</div>
         <div className="flex gap-12">
-          <TbBrandGithub size="32" title="Github"/>
+          <a href="/github">
+            <TbBrandGithub size="32" title="Github" />
+          </a>
         </div>
       </div>
     </nav>
