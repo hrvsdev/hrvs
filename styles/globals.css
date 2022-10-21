@@ -10,10 +10,9 @@
 }
 
 .link-underline {
-  background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 2px no-repeat;
-  transition: 250ms ease-out;
+  background: linear-gradient(currentColor 0 0) bottom / var(--d, 0) 2px no-repeat;
+  transition: background 300ms ease-in-out, transform 70ms;
 }
-
 .link-underline:hover {
   --d: 100%;
 }

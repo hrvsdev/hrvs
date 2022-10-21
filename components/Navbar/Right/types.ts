@@ -1,4 +1,4 @@
-import { TablerIcon } from "@tabler/icons";
+import type { TablerIcon } from "@tabler/icons";
 
 export interface IHeaderButton {
     href: string,
