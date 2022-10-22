@@ -16,22 +16,14 @@ export default function Tech() {
           I like to create simple, helpful and user friendly UI with the best suite of
           tools.
         </p>
-        <h3 className="text-lg font-semibold">Languages I Know:</h3>
-        <p className="text-slate-600 dark:text-slate-300 text-base leading-7 max-w-xl mb-4">
-          Langauges are used to write a program or app.
-        </p>
-        <div className="flex gap-4 font-medium mb-8">
+        <div className="flex gap-4 font-medium mb-4">
           <div className="bg-slate-100 rounded-full py-2 px-5">HTML</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">CSS</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">JavaScript</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">TypeScript</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">Dart</div>
         </div>
-        <h3 className="text-lg font-semibold">UI Libraries and Frameworks:</h3>
-        <p className="text-slate-600 dark:text-slate-300 text-base leading-7 max-w-xl mb-4">
-          UI Libraries and Frameworks makes easier to build a high dynamic apps.
-        </p>
-        <div className="flex gap-4 font-medium mb-8">
+        <div className="flex gap-4 font-medium mb-4">
           <div className="bg-slate-100 rounded-full py-2 px-5">React</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">React Native</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">Next.js</div>
@@ -39,11 +31,7 @@ export default function Tech() {
           <div className="bg-slate-100 rounded-full py-2 px-5">Solid.js</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">Flutter</div>
         </div>
-        <h3 className="text-lg font-semibold">Styling Tools</h3>
-        <p className="text-slate-600 dark:text-slate-300 text-base leading-7 max-w-xl mb-4">
-          Styling is hard but these awesome help me to create beautiful apps.
-        </p>
-        <div className="flex gap-4 font-medium mb-8">
+        <div className="flex gap-4 font-medium mb-4">
           <div className="bg-slate-100 rounded-full py-2 px-5">Sass</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">Tailwind CSS</div>
           <div className="bg-slate-100 rounded-full py-2 px-5">Bulma</div>

@@ -7,9 +7,9 @@ export default function Home(): JSX.Element {
   return (
     <>
       <Navbar />
-      <main className="dark:bg-slate-900">
+      <main>
         <HeroComp />
-        <Tech2/>
+        <Tech/>
       </main>
     </>
   );
