@@ -9,10 +9,10 @@ export default function Tech() {
           I like to craft apps with different tools to provide the best experience for
           both Users and Developers.
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="h-96 rounded-xl border dark:border-slate-700"></div>
-          <div className="h-96 rounded-xl border dark:border-slate-700"></div>
-          <div className="h-96 rounded-xl border dark:border-slate-700"></div>
+        <div className="flex flex-col gap-6">
+          <div className="rounded-xl border dark:border-slate-700 p-6">
+    
+          </div>
         </div>
       </div>
     </section>

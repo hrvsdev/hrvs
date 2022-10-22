@@ -17,7 +17,7 @@ export default function HeroComp(): JSX.Element {
           &nbsp; apps for web and mobile.
         </p>
         <div className="flex gap-x-5">
-          <button className="w-fit font-medium text-white hover:text-black dark:text-black dark:hover:text-white border-2 border-black dark:border-white bg-black hover:bg-transparent dark:bg-white cursor-pointer rounded-full transition-transform active:translate-y-0.5">
+          <button className="w-fit font-medium text-white hover:text-black dark:text-black dark:hover:text-white border-2 border-slate-800 dark:border-white bg-slate-800 hover:bg-transparent dark:bg-white cursor-pointer rounded-full transition-transform active:translate-y-0.5">
             <a
               className="inline-block py-2.5 px-7"
               href="https://github.com/hrvsdev"
