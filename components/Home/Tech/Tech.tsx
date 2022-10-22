@@ -1,5 +1,5 @@
 import Heading from "./Heading";
-import Skills from "./Skills";
+import Skills from "./Skills/Skills";
 
 export default function Tech() {
   return (
