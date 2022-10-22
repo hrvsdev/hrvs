@@ -1,5 +1,6 @@
 {
-  "name": "hrvs",
+  "name": "Harsh Vyas",
+  "description": "My personal website made with Next.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
