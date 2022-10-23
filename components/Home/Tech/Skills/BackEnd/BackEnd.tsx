@@ -8,34 +8,36 @@ export default function BackEnd() {
       </div>
       <h2 className="text-blue-700 text-xl font-semibold mb-3">Back End & Other Tools</h2>
       <p className="text-center tracking-wide mb-6">
-        Creating secure apps & faster intergration with all the services is what I choose.
+        Creating secure apps & faster integration with all the services is what I choose.
       </p>
-      <div className="flex flex-col gap-1">
-        <div className="flex flex-col gap-4">
-          <div>
-            <h3 className="text-lg text-blue-600 font-medium mb-1">Languages I Know</h3>
-            <ul className="text-center leading-relaxed tracking-wide">
-              <li>HTML & CSS</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg text-blue-600 font-medium mb-1">Languages I Know</h3>
-            <ul className="text-center leading-relaxed tracking-wide">
-              <li>HTML & CSS</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg text-blue-600 font-medium mb-1">Languages I Know</h3>
-            <ul className="text-center leading-relaxed tracking-wide">
-              <li>HTML & CSS</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-            </ul>
-          </div>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col items-center gap-1">
+          <h3 className="text-lg text-blue-600 font-medium">Languages I Know</h3>
+          <ul className="text-center leading-relaxed tracking-wide">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center gap-1">
+          <h3 className="text-lg text-blue-600 font-medium">
+            Libraries & Frameworks
+          </h3>
+          <ul className="text-center leading-relaxed tracking-wide">
+            <li>React</li>
+            <li>React Native</li>
+            <li>Next.js</li>
+            <li>Svelte</li>
+            <li>Solid.js</li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-center gap-1">
+          <h3 className="text-lg text-blue-600 font-medium">Languages I Know</h3>
+          <ul className="text-center leading-relaxed tracking-wide">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+          </ul>
         </div>
       </div>
     </div>

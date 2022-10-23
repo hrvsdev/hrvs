@@ -8,19 +8,19 @@ export default function FrontEnd() {
       </div>
       <h2 className="text-blue-700 text-xl font-semibold mb-3">Front End & UI</h2>
       <p className="text-center tracking-wide mb-6">
-        I like to create simple, helpful and user friendly UI with the best suite of
-        tools.
+        I like to create simple, helpful and user friendly UI with Industry standard tools.
       </p>
       <div className="flex flex-col gap-4">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-1">
           <h3 className="text-lg text-blue-600 font-medium">Languages I Know</h3>
           <ul className="text-center leading-relaxed tracking-wide">
-            <li>HTML & CSS</li>
+            <li>HTML</li>
+            <li>CSS & Sass</li>
             <li>JavaScript</li>
             <li>TypeScript</li>
           </ul>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-1">
           <h3 className="text-lg text-blue-600 font-medium">
             Libraries & Frameworks
           </h3>
@@ -32,12 +32,12 @@ export default function FrontEnd() {
             <li>Solid.js</li>
           </ul>
         </div>
-        <div className="flex flex-col items-center">
-          <h3 className="text-lg text-blue-600 font-medium">Languages I Know</h3>
+        <div className="flex flex-col items-center gap-1">
+          <h3 className="text-lg text-blue-600 font-medium">Other Tools</h3>
           <ul className="text-center leading-relaxed tracking-wide">
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+            <li>MUI</li>
           </ul>
         </div>
       </div>
