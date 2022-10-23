@@ -1,8 +1,5 @@
-interface ISubSkills {
-  name: string;
-  skills: string[];
-}
+import type { SubSkillsList } from "../../types";
 
 export interface IList {
-  subSkillsList: ISubSkills[];
+  subSkillsList: SubSkillsList
 }

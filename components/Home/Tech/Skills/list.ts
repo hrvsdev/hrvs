@@ -1,15 +1,18 @@
 import { IconDeviceDesktopAnalytics } from "@tabler/icons";
+import { SkillList } from "./types";
 
-import type { ICard } from "./Skills/Card/types";
-
-const skills: ICard = {
+const skills: SkillList = [
+  {
     Icon: IconDeviceDesktopAnalytics,
     mainSkillType: "Front End & UI",
     skillDesc: "I am fuckingly god!",
-    subSkillsList: [{
+    subSkillsList: [
+      {
         name: "Languages",
-        skills: ["HTML & CSS"]
-    }]
-}
+        skills: ["HTML & CSS"],
+      },
+    ],
+  },
+];
 
-export default skills
+export default skills;

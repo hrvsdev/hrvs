@@ -1,8 +1,3 @@
-import type { TablerIcon } from "@tabler/icons";
-import type { IList } from "./List/types";
+import { ISkill } from "../types";
 
-export interface ICard extends IList {
-  Icon: TablerIcon;
-  mainSkillType: string;
-  skillDesc: string;
-}
+export interface ICard extends ISkill {}
