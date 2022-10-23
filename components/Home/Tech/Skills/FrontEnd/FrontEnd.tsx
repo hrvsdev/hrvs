@@ -37,7 +37,6 @@ export default function FrontEnd() {
           <ul className="text-center leading-relaxed tracking-wide">
             <li>Tailwind CSS</li>
             <li>Bootstrap</li>
-            <li>MUI</li>
           </ul>
         </div>
       </div>
