@@ -29,7 +29,7 @@ export default function BackEnd() {
           </ul>
         </div>
         <div className="flex flex-col items-center gap-1">
-          <h3 className="text-lg text-blue-600 font-medium">DBs & Bass</h3>
+          <h3 className="text-lg text-blue-600 font-medium">Databases</h3>
           <ul className="text-center leading-relaxed tracking-wide">
             <li>MongoDB</li>
             <li>PostgreSQL</li>
