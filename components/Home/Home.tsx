@@ -1,5 +1,6 @@
 import Navbar from "../Navbar";
 import HeroComp from "./Hero";
+import Projects from "./Projects";
 import Tech from "./Tech";
 
 export default function Home(): JSX.Element {
@@ -8,7 +9,8 @@ export default function Home(): JSX.Element {
       <Navbar />
       <main>
         <HeroComp />
-        <Tech/>
+        <Projects />
+        <Tech />
       </main>
     </>
   );
