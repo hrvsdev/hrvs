@@ -9,8 +9,8 @@ export default function Home(): JSX.Element {
       <Navbar />
       <main>
         <HeroComp />
-        <Projects />
         <Tech />
+        <Projects />
       </main>
     </>
   );
