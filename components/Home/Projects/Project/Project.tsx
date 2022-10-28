@@ -4,44 +4,27 @@ import Image from "next/image";
 
 export default function Project() {
   return (
-    <div className="flex flex-col md:flex-row border shadow-xl rounded-lg bg-white/90 backdrop-blur">
-      <div className="flex flex-col md:w-1/2 py-4 px-6">
-        <h1 className="text-3xl font-semibold mb-4">Secured Text</h1>
-        <p className="mb-2">
-          Secured Text is one of the most secure and safe text and notes app on the
-          Internet.
+    <div className="flex border shadow-xl rounded-xl bg-white/90 backdrop-blur">
+      <div className="flex flex-col py-8 px-6 sm:px-6 md:px-8 lg:px-12">
+        <h1 className="text-3xl font-semibold mb-2">Secured Text</h1>
+        <p className="text-slate-800 mb-8">
+          One of the most secure text and notes app on the Internet, Secured Text is the
+          best way to save notes and access them from anywhere.
         </p>
-        <p className="mb-4">
-          It uses AES and SHA512 encryption for each network request, making it impossible
-          to obtain encrypted data in any way.
-        </p>
-        <div className="flex gap-3 mt-auto">
-          <button className="text-sm text-white bg-blue-500 cursor-pointer rounded-full">
-            <a
-              className="inline-block py-1 px-3"
-              href="https://securedtext.vercel.app"
-              target="_blank"
-              rel="noreferrer">
-              Visit
-            </a>
-          </button>
-          <button className="text-sm text-white bg-blue-500 cursor-pointer rounded-full">
-            <a
-              className="inline-block py-1 px-3"
-              href="https://github.com/hrvsdev/secured-text"
-              target="_blank"
-              rel="noreferrer">
-              Github
-            </a>
-          </button>
+        <div className="flex flex-col gap-3">
+          <a
+            href="https://securedtext.vercel.app"
+            target="_blank"
+            rel="noreferrer">
+            Visit
+          </a>
+          <a
+            href="https://github.com/hrvsdev/secured-text"
+            target="_blank"
+            rel="noreferrer">
+            Github
+          </a>
         </div>
-      </div>
-      <div className="md:w-1/2 aspect-video border-t md:border-t-0 md:border-l">
-        <img
-          alt="secured-text"
-          src="/images/projects/securedtext.png"
-          className="rounded-lg"
-        />
       </div>
     </div>
   );
