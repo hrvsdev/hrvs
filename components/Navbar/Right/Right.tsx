@@ -7,7 +7,7 @@ export default function Right(): JSX.Element {
     <div className="flex items-center gap-8 sm:gap-11">
       <HeaderButton href="/hi" name="Contact" Icon={IconMail} />
       <HeaderButton href="/github" name="Github" Icon={IconBrandGithub} />
-      <HeaderButton href="/resume" name="Resume" Icon={IconNotes} />
+      <HeaderButton href="/pdf/resume.pdf" name="Resume" Icon={IconNotes} />
     </div>
   );
 }
@@ -16,8 +16,10 @@ function HeaderButton({ href, name, Icon }: IHeaderButton): JSX.Element {
   return (
     <a
       href={href}
-      className="flex gap-1.5 items-center h-9 sm:h-8 text-slate-700 hover:text-black active:translate-y-0.5 link-underline">
-      <Icon className="w-7  h-7 sm:w-6 sm:h-6"/>
+      target="_blank"
+      rel="noreferrer"
+      className="flex gap-1.5 items-center h-9 sm:h-8 text-slate-700 hover:text-blue-500 active:translate-y-0.5 link-underline">
+      <Icon className="w-7  h-7 sm:w-6 sm:h-6" />
       <span className="text-lg hidden sm:inline-block">{name}</span>
     </a>
   );
