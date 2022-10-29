@@ -5,7 +5,7 @@ export default function HeroComp(): JSX.Element {
         <p className="text-slate-600 text-lg sm:text-xl pl-1 mb-2">
           Hi there, I&apos;m
         </p>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-blue-500 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 sm:mb-6 md:mb-8">
           Harsh Vyas
         </h1>
         <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-snug mb-6">
@@ -17,7 +17,7 @@ export default function HeroComp(): JSX.Element {
           &nbsp; apps for web and mobile.
         </p>
         <div className="flex gap-x-5">
-          <button className="w-fit font-medium text-white hover:text-black border-2 border-slate-800 bg-slate-800 hover:bg-transparent cursor-pointer rounded-full transition-transform active:translate-y-0.5">
+          <button className="w-fit font-medium text-white hover:text-blue-600 border-2 border-blue-600 bg-blue-600 hover:bg-transparent cursor-pointer rounded-full transition-transform active:translate-y-0.5">
             <a
               className="inline-block py-2.5 px-7"
               href="https://github.com/hrvsdev"
