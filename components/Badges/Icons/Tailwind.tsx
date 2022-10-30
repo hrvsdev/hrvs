@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-export function IconTailwind(props: SVGProps<SVGSVGElement>) {
+export default function IconTailwind(props: SVGProps<SVGSVGElement>) {
   return (
     <svg width="1.67em" height="1em" viewBox="0 0 256 154" {...props}>
       <defs>

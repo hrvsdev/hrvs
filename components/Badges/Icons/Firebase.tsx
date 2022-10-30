@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-export function LogosFirebase(props: SVGProps<SVGSVGElement>) {
+export default function LogosFirebase(props: SVGProps<SVGSVGElement>) {
   return (
     <svg width="0.73em" height="1em" viewBox="0 0 256 351" {...props}>
       <defs>

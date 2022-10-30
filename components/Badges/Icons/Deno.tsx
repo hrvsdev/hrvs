@@ -1,8 +1,8 @@
 import type { SVGProps } from "react";
 
-export function IconDeno(props: SVGProps<SVGSVGElement>) {
+export default function IconDeno(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg width="1em" height="1em" viewBox="0 0 256 256" {...props}>
+    <svg width="14" height="14" viewBox="0 0 256 256" {...props}>
       <path d="M128 0c70.692 0 128 57.308 128 128c0 70.692-57.308 128-128 128C57.308 256 0 198.692 0 128C0 57.308 57.308 0 128 0Z"></path>
       <path
         fill="#FFF"

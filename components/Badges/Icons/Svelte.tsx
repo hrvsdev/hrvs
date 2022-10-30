@@ -1,8 +1,8 @@
 import type { SVGProps } from "react";
 
-export function LogosNextjsIcon(props: SVGProps<SVGSVGElement>) {
+export default function LogosNextjsIcon(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg width="1em" height="1em" viewBox="0 0 256 256" {...props}>
+    <svg width="14" height="14" viewBox="0 0 256 256" {...props}>
       <defs>
         <linearGradient id="svgIDc" x1="55.633%" x2="83.228%" y1="56.385%" y2="96.08%">
           <stop offset="0%" stopColor="#FFF"></stop>

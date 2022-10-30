@@ -1,6 +1,6 @@
 import type { SVGProps } from "react";
 
-export function IconMongo(props: SVGProps<SVGSVGElement>) {
+export default function IconMongo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg width="0.47em" height="1em" viewBox="0 0 256 549" {...props}>
       <path

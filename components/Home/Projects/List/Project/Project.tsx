@@ -1,5 +1,10 @@
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons";
+
 import If from "../../../../Utils/If";
+
+import BadgeJS from "../../../../Badges/Chips/JS";
+import BadgeTS from "../../../../Badges/Chips/TS";
+import BadgeReact from "../../../../Badges/Chips/React";
 
 import type { IProject } from "./types";
 
@@ -17,6 +22,11 @@ export default function Project(props: IProject) {
           </If>
         </div>
         <p className="text-slate-800 leading-7 mb-8">{desc}</p>
+        <div className="flex gap-2">
+        <BadgeJS/>
+        <BadgeTS/>
+        <BadgeReact/>
+        </div>
         <div className="text-slate-800 flex gap-4 mt-auto">
           <a
             className="hover:text-blue-600 active:translate-y-0.5 transition-transform duration-[50ms]"
