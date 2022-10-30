@@ -11,7 +11,7 @@ export interface ILinksProps {
 }
 
 export interface IBadgesProps {
-  badges?: ReactNode[];
+  badges: ReactNode[];
 }
 
 export interface IProject extends INameProps, ILinksProps, IBadgesProps {
