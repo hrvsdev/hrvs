@@ -1,0 +1,14 @@
+---
+import If from "../../../../Utils/If";
+
+import type { INameProps } from "./types";
+
+const { development } = Astro.props as INameProps;
+---
+
+<div class="flex justify-between items-center mb-2">
+  <h1 class="text-xl sm:text-2xl md:text-3xl font-semibold"><slot /></h1>
+  <If condition={development}>
+    <div class="text-xs bg-slate-300 h-fit rounded py-1 px-2">In development</div>
+  </If>
+</div>

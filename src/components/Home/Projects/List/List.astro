@@ -1,0 +1,90 @@
+---
+import Project from "./Project/Project.astro";
+
+import Firebase from "../../../Badges/Chips/Firebase.astro";
+import Next from "../../../Badges/Chips/Next.astro";
+import React from "../../../Badges/Chips/React.astro";
+import TS from "../../../Badges/Chips/TS.astro";
+import JS from "../../../Badges/Chips/JS.astro";
+import Svelte from "../../../Badges/Chips/Svelte.astro";
+import Mongo from "../../../Badges/Chips/Mongo.astro";
+import Express from "../../../Badges/Chips/Express.astro";
+import Deno from "../../../Badges/Chips/Deno.astro";
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  <Project appLink="https://st.hrvs.me" githubLink="https://github.com/hrvsdev/secretly">
+    <slot slot="name">Secretly</slot>
+    <slot slot="desc">
+      An end-to-end encrypted app to securely share sensitive data such as passwords, API
+      keys, and OTPs through a one-time link.
+    </slot>
+    <slot slot="badges">
+      <TS />
+      <React />
+      <Next />
+      <Firebase />
+    </slot>
+  </Project>
+  <Project
+    appLink="https://securedtext.vercel.app"
+    githubLink="https://github.com/hrvsdev/secured-text"
+  >
+    <slot slot="name">Secured Text</slot>
+    <slot slot="desc">
+      One of the most secure text and notes app on the Internet, Secured Text is the best
+      way to take notes and access them from anywhere.
+    </slot>
+    <slot slot="badges">
+      <JS />
+      <Svelte />
+      <Mongo />
+    </slot>
+  </Project>
+  <Project
+    appLink="https://t3.hrvs.me"
+    githubLink="https://github.com/hrvsdev/tic-tac-toe"
+    development
+  >
+    <slot slot="name">Tic Tac Toe</slot>
+    <slot slot="desc">
+      A multiplayer and online fun game to play with your friend online or offline or even
+      with the AI and computer.
+    </slot>
+    <slot slot="badges">
+      <TS />
+      <Svelte />
+      <Firebase />
+    </slot>
+  </Project>
+  <Project
+    appLink="https://yourmind.vercel.app"
+    githubLink="https://github.com/hrvsdev/yourmind"
+  >
+    <slot slot="name">Your Mind</slot>
+    <slot slot="desc">
+      A simple and fast note-taking app with encryption and real-time sync.
+    </slot>
+    <slot slot="badges">
+      <JS />
+      <React />
+      <Express />
+      <Mongo />
+    </slot>
+  </Project>
+  <Project
+    appLink="https://t.me/scrtlybot"
+    githubLink="https://github.com/hrvsdev/secretly-tg-bot"
+  >
+    <slot slot="name">Secretly Telegram Bot</slot>
+    <slot slot="desc">
+      Extremely fast Telegram Bot for Secretly App with both Chat and Inline Mode for
+      sharing confidential data.
+    </slot>
+    <slot slot="badges">
+      <TS />
+      <Deno />
+      <Firebase />
+    </slot>
+  </Project>
+</div>

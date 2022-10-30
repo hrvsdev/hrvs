@@ -1,0 +1,28 @@
+---
+import { IconExternalLink, IconBrandGithub } from "@tabler/icons";
+
+import type { ILinksProps } from "./types";
+
+const { appLink, githubLink } = Astro.props as ILinksProps;
+---
+
+<div class="text-slate-800 flex gap-4 mt-auto">
+  <a
+    class="hover:text-blue-600 active:translate-y-0.5 transition-transform duration-[50ms]"
+    href={appLink}
+    target="_blank"
+    rel="noreferrer"
+    title="Visit App"
+  >
+    <IconExternalLink size="28" stroke="1.5" />
+  </a>
+  <a
+    class="hover:text-blue-600 active:translate-y-0.5 transition-transform duration-[50ms]"
+    href={githubLink}
+    target="_blank"
+    rel="noreferrer"
+    title="Github Repo"
+  >
+    <IconBrandGithub size="28" stroke="1.5" />
+  </a>
+</div>

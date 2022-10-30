@@ -1,0 +1,11 @@
+---
+import { IconMail, IconBrandGithub, IconNotes } from "@tabler/icons";
+
+import Link from "./Link.astro";
+---
+
+<div class="flex items-center gap-8 sm:gap-11">
+  <Link href="/hi" name="Contact" Icon={IconMail} />
+  <Link href="/github" name="Github" Icon={IconBrandGithub} />
+  <Link href="/pdf/resume.pdf" name="Resume" Icon={IconNotes} />
+</div>
