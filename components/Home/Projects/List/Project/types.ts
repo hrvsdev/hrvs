@@ -1,7 +1,19 @@
-export interface IProject {
+import type { ReactNode } from "react";
+
+export interface INameProps {
   name: string;
-  desc: string;
+  development?: boolean;
+}
+
+export interface ILinksProps {
   appLink: string;
   githubLink: string;
-  development?: boolean
+}
+
+export interface IBadgesProps {
+  badges?: ReactNode[];
+}
+
+export interface IProject extends INameProps, ILinksProps, IBadgesProps {
+  desc: string;
 }
