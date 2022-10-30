@@ -30,7 +30,7 @@ function Name({ name, development }: INameProps) {
 }
 
 function Badges({ badges }: IBadgesProps) {
-  return <div className="flex gap-2 mb-8">{badges}</div>;
+  return <div className="flex flex-wrap gap-2 mb-8">{badges}</div>;
 }
 
 function Links({ appLink, githubLink }: ILinksProps) {
