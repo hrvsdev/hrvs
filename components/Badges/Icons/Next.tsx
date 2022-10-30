@@ -2,15 +2,15 @@ import type { SVGProps } from "react";
 
 export default function IconNext(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg width="14" height="14" viewBox="0 0 256 256" {...props}>
+    <svg fill="#fff"  width="14" height="14" viewBox="0 0 256 256" {...props}>
       <defs>
         <linearGradient id="svgIDc" x1="55.633%" x2="83.228%" y1="56.385%" y2="96.08%">
-          <stop offset="0%" stopColor="#FFF"></stop>
-          <stop offset="100%" stopColor="#FFF" stopOpacity="0"></stop>
+          <stop offset="0%" stopColor="#000"></stop>
+          <stop offset="100%" stopColor="#000" stopOpacity="0"></stop>
         </linearGradient>
         <linearGradient id="svgIDd" x1="50%" x2="49.953%" y1="0%" y2="73.438%">
-          <stop offset="0%" stopColor="#FFF"></stop>
-          <stop offset="100%" stopColor="#FFF" stopOpacity="0"></stop>
+          <stop offset="0%" stopColor="#000"></stop>
+          <stop offset="100%" stopColor="#000" stopOpacity="0"></stop>
         </linearGradient>
         <circle id="svgIDa" cx="128" cy="128" r="128"></circle>
       </defs>

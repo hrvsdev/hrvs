@@ -5,8 +5,15 @@ import If from "../../../../Utils/If";
 import BadgeJS from "../../../../Badges/Chips/JS";
 import BadgeTS from "../../../../Badges/Chips/TS";
 import BadgeReact from "../../../../Badges/Chips/React";
+import BadgeSvelte from "../../../../Badges/Chips/Svelte";
+import BadgeNext from "../../../../Badges/Chips/Next";
+import BadgeFirebase from "../../../../Badges/Chips/Firebase";
 
 import type { IProject } from "./types";
+import BadgeDeno from "../../../../Badges/Chips/Deno";
+import BadgeMongo from "../../../../Badges/Chips/Mongo";
+import BadgeNode from "../../../../Badges/Chips/Node";
+import BadgeExpress from "../../../../Badges/Chips/Express";
 
 export default function Project(props: IProject) {
   const { name, desc, githubLink, appLink, development } = props;
@@ -22,10 +29,21 @@ export default function Project(props: IProject) {
           </If>
         </div>
         <p className="text-slate-800 leading-7 mb-8">{desc}</p>
-        <div className="flex gap-2">
+        <div className="flex gap-1">
         <BadgeJS/>
         <BadgeTS/>
         <BadgeReact/>
+        <BadgeSvelte/>
+        </div>
+        <div className="flex gap-1">
+          <BadgeNext/>
+          <BadgeFirebase/>
+          <BadgeDeno/>
+          <BadgeMongo/>
+        </div>
+        <div className="flex gap-1">
+          <BadgeNode/>
+          <BadgeExpress/>
         </div>
         <div className="text-slate-800 flex gap-4 mt-auto">
           <a
