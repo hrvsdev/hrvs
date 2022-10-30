@@ -36,6 +36,7 @@ const projects = [
     desc: "A multiplayer and online fun game to play with your friend online or offline or even with the AI and computer.",
     appLink: "https://t3.hrvs.me",
     githubLink: "https://github.com/hrvsdev/tic-tac-toe",
+    development: true,
     badges: [<BadgeTS key={1} />, <BadgeSvelte key={2} />, <BadgeFirebase key={3} />],
   },
   {
@@ -48,7 +49,7 @@ const projects = [
       <BadgeJS key={1} />,
       <BadgeReact key={2} />,
       <BadgeExpress key={3} />,
-      <BadgeFirebase key={4} />,
+      <BadgeMongo key={4} />,
     ],
   },
   {
