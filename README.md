@@ -1,3 +1,1 @@
-# Harsh Vyas
-
-My portfolio made with Next.js
+# My portfolio made with Solid.js
