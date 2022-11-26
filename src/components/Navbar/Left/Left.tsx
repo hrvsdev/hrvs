@@ -1,0 +1,7 @@
+export default function Left() {
+  return (
+      <a href="/" class="text-blue-600 text-xl font-bold w-12 h-12 flex items-center justify-center border-2 border-current rounded-full">
+        HV
+      </a>
+  );
+}
