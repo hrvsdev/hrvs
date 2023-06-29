@@ -72,17 +72,17 @@ const nextConfig = {
       },
       {
         source: "/ig",
-        destination: "https://instagram.com/harsh_vyas",
+        destination: "https://instagram.com/harsh_vys",
         permanent: true,
       },
       {
         source: "/insta",
-        destination: "https://instagram.com/harsh_vyas",
+        destination: "https://instagram.com/harsh_vys",
         permanent: true,
       },
       {
         source: "/instagram",
-        destination: "https://instagram.com/harsh_vyas",
+        destination: "https://instagram.com/harsh_vys",
         permanent: true,
       },
     ];
