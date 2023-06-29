@@ -62,27 +62,27 @@ const nextConfig = {
       },
       {
         source: "/tw",
-        destination: "https://twitter.com/hrvsdev",
+        destination: "https://twitter.com/itsharshvyas",
         permanent: true,
       },
       {
         source: "/twitter",
-        destination: "https://twitter.com/hrvsdev",
+        destination: "https://twitter.com/itsharshvyas",
         permanent: true,
       },
       {
         source: "/ig",
-        destination: "https://instagram.com/hrvsdev",
+        destination: "https://instagram.com/harsh_vyas",
         permanent: true,
       },
       {
         source: "/insta",
-        destination: "https://instagram.com/hrvsdev",
+        destination: "https://instagram.com/harsh_vyas",
         permanent: true,
       },
       {
         source: "/instagram",
-        destination: "https://instagram.com/hrvsdev",
+        destination: "https://instagram.com/harsh_vyas",
         permanent: true,
       },
     ];
