@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="I'm Harsh, a passionate web and mobile developer who loves building better apps."
         />
       </Head>
+      {/* @ts-ignore */}
       <Component {...pageProps} />
     </>
   );
