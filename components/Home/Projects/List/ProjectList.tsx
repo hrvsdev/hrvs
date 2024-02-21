@@ -15,7 +15,7 @@ const projects = [
     name: "CardNest",
     desc: "A secure, simple and small app for storing payments card (credit and debit) details, available for both web and native mobile.",
     appLink: "https://cn.hrvs.me",
-    githubLink: "https://github.com/cardnest",
+    githubLink: "https://github.com/hrvsdev/cardnest",
     badges: [
       <BadgeTS key={1} />,
       <BadgeReact key={2} />,
