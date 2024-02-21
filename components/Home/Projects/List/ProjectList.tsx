@@ -7,10 +7,23 @@ import BadgeSvelte from "../../../Badges/Chips/Svelte";
 import BadgeMongo from "../../../Badges/Chips/Mongo";
 import BadgeExpress from "../../../Badges/Chips/Express";
 import BadgeDeno from "../../../Badges/Chips/Deno";
+import BadgeReactNative from "../../../Badges/Chips/ReactNative";
 
 const projects = [
   {
     key: 1,
+    name: "CardNest",
+    desc: "A secure, simple and small app for storing payments card (credit and debit) details, available for both web and native mobile.",
+    appLink: "https://cn.hrvs.me",
+    githubLink: "https://github.com/cardnest",
+    badges: [
+      <BadgeTS key={1} />,
+      <BadgeReact key={2} />,
+      <BadgeReactNative key={3} />,
+    ],
+  },
+  {
+    key: 2,
     name: "Secretly",
     desc: "An end-to-end encrypted app to securely share sensitive data such as passwords, API keys, and OTPs through a one-time link.",
     appLink: "https://st.hrvs.me",
@@ -23,24 +36,32 @@ const projects = [
     ],
   },
   {
-    key: 2,
+    key: 3,
     name: "Secured Text",
     desc: "One of the most secure text and notes app on the Internet, Secured Text is the best way to take notes and access them from anywhere.",
     appLink: "https://securedtext.vercel.app",
     githubLink: "https://github.com/hrvsdev/secured-text",
-    badges: [<BadgeJS key={1} />, <BadgeSvelte key={2} />, <BadgeMongo key={3} />],
+    badges: [
+      <BadgeJS key={1} />,
+      <BadgeSvelte key={2} />,
+      <BadgeMongo key={3} />,
+    ],
   },
   {
-    key: 3,
+    key: 4,
     name: "Tic Tac Toe",
     desc: "A multiplayer and online fun game to play with your friend online or offline or even with the AI and computer.",
     appLink: "https://t3.hrvs.me",
     githubLink: "https://github.com/hrvsdev/tic-tac-toe",
     development: true,
-    badges: [<BadgeTS key={1} />, <BadgeSvelte key={2} />, <BadgeFirebase key={3} />],
+    badges: [
+      <BadgeTS key={1} />,
+      <BadgeSvelte key={2} />,
+      <BadgeFirebase key={3} />,
+    ],
   },
   {
-    key: 4,
+    key: 5,
     name: "Your Mind",
     desc: "A simple and fast note-taking app with encryption and real-time sync.",
     appLink: "https://yourmind.vercel.app",
@@ -53,12 +74,16 @@ const projects = [
     ],
   },
   {
-    key: 5,
+    key: 6,
     name: "Secretly Telegram Bot",
     desc: "Extremely fast Telegram Bot for Secretly App with both Chat and Inline Mode for sharing confidential data.",
     appLink: "https://t.me/scrtlybot",
     githubLink: "https://github.com/hrvsdev/secretly-tg-bot",
-    badges: [<BadgeTS key={1} />, <BadgeDeno key={2} />, <BadgeFirebase key={3} />],
+    badges: [
+      <BadgeTS key={1} />,
+      <BadgeDeno key={2} />,
+      <BadgeFirebase key={3} />,
+    ],
   },
 ];
 
