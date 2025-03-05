@@ -1,0 +1,15 @@
+---
+type Props = {
+	name: string;
+	class: string;
+};
+
+const { name, class: customClass } = Astro.props;
+
+import a from "./Chips/deno.svg";
+---
+
+<div class={`flex items-center gap-1.5 size-fit rounded py-1.5 px-2 ${customClass}`}>
+	<slot />
+	<span class="text-[0.625rem] tracking-widest uppercase">{name}</span>
+</div>

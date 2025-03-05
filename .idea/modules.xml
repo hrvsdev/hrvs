@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hrvs.iml" filepath="$PROJECT_DIR$/.idea/hrvs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hrvs-astro.iml" filepath="$PROJECT_DIR$/.idea/hrvs-astro.iml" />
     </modules>
   </component>
 </project>
